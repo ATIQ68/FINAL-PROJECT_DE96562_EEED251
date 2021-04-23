@@ -1,0 +1,76 @@
+MPLINK 4.40, Linker
+Linker Map File - Created Fri Apr 23 17:00:41 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x000018    program   0x0002c4
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000009      
+                            0x000018    0x0002db      
+            716 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   AGAIN1   0x00001e    program     static F:\ATIQ\aniq midterm.asm 
+                   AGAIN2   0x000022    program     static F:\ATIQ\aniq midterm.asm 
+                   BUZZER   0x00023c    program     static F:\ATIQ\aniq midterm.asm 
+                    CHECK   0x000222    program     static F:\ATIQ\aniq midterm.asm 
+                   CHECK1   0x000228    program     static F:\ATIQ\aniq midterm.asm 
+                   CHECK2   0x00022c    program     static F:\ATIQ\aniq midterm.asm 
+                    DELAY   0x00001a    program     static F:\ATIQ\aniq midterm.asm 
+                   KEYPAD   0x000246    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD#   0x0002cc    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD0   0x0002c0    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD2   0x000254    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD3   0x000260    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD4   0x00026c    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD5   0x000278    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD6   0x000284    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD7   0x000290    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD8   0x00029c    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD9   0x0002a8    program     static F:\ATIQ\aniq midterm.asm 
+               KEYPADSTAR   0x0002b4    program     static F:\ATIQ\aniq midterm.asm 
+                     SHOW   0x0002d8    program     static F:\ATIQ\aniq midterm.asm 
+                    start   0x00021c    program     static F:\ATIQ\aniq midterm.asm 
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    DELAY   0x00001a    program     static F:\ATIQ\aniq midterm.asm 
+                   AGAIN1   0x00001e    program     static F:\ATIQ\aniq midterm.asm 
+                   AGAIN2   0x000022    program     static F:\ATIQ\aniq midterm.asm 
+                    start   0x00021c    program     static F:\ATIQ\aniq midterm.asm 
+                    CHECK   0x000222    program     static F:\ATIQ\aniq midterm.asm 
+                   CHECK1   0x000228    program     static F:\ATIQ\aniq midterm.asm 
+                   CHECK2   0x00022c    program     static F:\ATIQ\aniq midterm.asm 
+                   BUZZER   0x00023c    program     static F:\ATIQ\aniq midterm.asm 
+                   KEYPAD   0x000246    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD2   0x000254    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD3   0x000260    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD4   0x00026c    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD5   0x000278    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD6   0x000284    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD7   0x000290    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD8   0x00029c    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD9   0x0002a8    program     static F:\ATIQ\aniq midterm.asm 
+               KEYPADSTAR   0x0002b4    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD0   0x0002c0    program     static F:\ATIQ\aniq midterm.asm 
+                  KEYPAD#   0x0002cc    program     static F:\ATIQ\aniq midterm.asm 
+                     SHOW   0x0002d8    program     static F:\ATIQ\aniq midterm.asm 
+
+
